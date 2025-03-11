@@ -1,0 +1,7 @@
+fileName,variableName,description,unitText
+HistoricalTornadoes_JKunkel,YYYY_UTC,Year of the tornado event,Year
+HistoricalTornadoes_JKunkel,LOCATION_NAME,Name of the tornado location,Text
+HistoricalTornadoes_JKunkel,MAX_SPEED_KMH,Maximum wind speed of tornado,km/h
+HistoricalTornadoes_JKunkel,F_RATING,Fujita scale rating of the tornado,Scale (F0-F5)
+HistoricalTornadoes_JKunkel,FATALITIES,Number of deaths caused by the tornado,Count
+HistoricalTornadoes_JKunkel,DAMAGE_K,Estimated damage cost,Thousands of dollars

@@ -1,0 +1,74 @@
+{
+  "@context": "http://schema.org",
+  "type": "Dataset",
+  "name": "The Hunt for Missing Tornadoes",
+  "creator": [
+    {
+      "type": "Person",
+      "id": "doi:10.5683/SP3/53WFLM",
+      "email": null,
+      "affiliation": "University of Western Ontario",
+      "name": "Joanne Kunkel"
+    }
+  ],
+  "description": "Historical tornadoes discovered after a search across Canada.",
+  "datePublished": "2022-04-22",
+  "keywords": {},
+  "funder": null,
+  "temporalCoverage": "NA/NA",
+  "license": null,
+  "spatialCoverage": {
+    "type": "Place",
+    "name": null,
+    "geo": {
+      "type": "GeoShape",
+      "box": "NA NA NA NA"
+    }
+  },
+  "variableMeasured": [
+    {
+      "type": "PropertyValue",
+      "unitText": "Year",
+      "name": "YYYY_UTC",
+      "description": "Year of the tornado event"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": "Text",
+      "name": "LOCATION_NAME",
+      "description": "Name of the tornado location"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": "km/h",
+      "name": "MAX_SPEED_KMH",
+      "description": "Maximum wind speed of tornado"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": "Scale (F0-F5)",
+      "name": "F_RATING",
+      "description": "Fujita scale rating of the tornado"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": "Count",
+      "name": "FATALITIES",
+      "description": "Number of deaths caused by the tornado"
+    },
+    {
+      "type": "PropertyValue",
+      "unitText": "Thousands of dollars",
+      "name": "DAMAGE_K",
+      "description": "Estimated damage cost"
+    }
+  ],
+  "distribution": [
+    {
+      "type": "DataDownload",
+      "name": "The Hunt for Missing Tornadoes",
+      "contentUrl": "https://doi.org/10.5683/SP3/53WFLM",
+      "encodingFormat": "XLSX"
+    }
+  ]
+}
